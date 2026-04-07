@@ -1,16 +1,20 @@
-# Data Analyst Journey 📊
+Data Analyst Journey 📊
+Day 5: VLOOKUP + XLOOKUP | Data Merging & Integrity
 
-### Day 4: Conditional Aggregation (SUMIF, COUNTIF, SUMIFS)
-Aaj maine seekha ki business conditions ke basis pe data kaise calculate karte hain.
+Aaj maine seekha ki fragmented data tables ko "Common Key" ke basis pe kaise merge karte hain aur purane VLOOKUP ki limitations ko XLOOKUP se kaise khatam karte hain.
 
-#### Key Tasks Completed:
-- **SUMIF:** Region-wise total sales nikali.
-- **COUNTIF:** Har category ke orders count kiye.
-- **SUMIFS:** Multiple conditions (e.g., West region + Furniture) pe sales calculate ki.
-- **Business Logic:** Excel mein "So What" aur "What Next" ka column add kiya.
+Key Tasks Completed:
 
-#### Business Insight of the Day:
-"West region ki sales top par hain, lekin Furniture category ka profit margin kam hai. Shipping costs par dhyaan dena hoga."
+VLOOKUP Mastery: Product ID ke basis pe Master Sheet se Unit Price fetch ki.
 
----
-*Status: Day 4/90 Complete* ✅
+IFERROR Handling: Clean reports banane ke liye #N/A errors ko "Not Found" se replace kiya.
+
+XLOOKUP (The Modern King): Left-side lookup aur Multiple criteria (e.g., Region + Category) handle kiye bina column count kiye.
+
+Data Integrity Check: Ye dekha ki kaise column insert karne par VLOOKUP toot jata hai par XLOOKUP robust rehta hai.
+
+Business Insight of the Day:
+
+"Sales data tab tak adhura hai jab tak use Master Product list se merge na kiya jaye. XLOOKUP use karne se dashboard 10x stable bante hain, jisse reporting errors 0% ho jate hain. Data integrity = Trustworthy Decisions."
+
+Status: Day 5/90 Complete ✅
